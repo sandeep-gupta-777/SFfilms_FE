@@ -10,6 +10,7 @@ This is the frontend part of this MEAN stack project for enabling user to locale
 # Approach
 
 Data preprocessing:
+
 We use sfgov API to get the data of the location and movies filmed on that location. These location are however just text and not the longitute and latitudes which we require to pin point the place on map. To solve this issue we do following:
 1.Import all the data to our mongoDB database using MongoChef client.
 2.For each location get longitute and latitudes from using the Google map API
