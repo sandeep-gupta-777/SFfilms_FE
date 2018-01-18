@@ -1,6 +1,13 @@
 # San Francisco Films
 
-This is a MEAN stack project for enabling user to locale all of the places in San Francisco, where movies have been filmed. User can search by name of the movie or name of the place. All the places will be shown on google map using Google map APIs.
+This is a MEAN stack project for enabling user to locale all of the places in San Francisco, where movies have been filmed since 1928. User can search by name of the movie or name of the place. All the places will be shown on google map using Google map APIs.
+
+# Technologies used
+1. MEAN stack
+2. Google Map Apis
+3. Bootstrap 4
+4. API by SFgov: https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am/data
+
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -9,15 +16,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Author
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Sandeep Gupta
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
